@@ -22,7 +22,7 @@ def update_knowledge(file):
 
         # split the knowledge into chunks
         text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=1000,
+            chunk_size=500,
             chunk_overlap=100,
             length_function=len
         )
